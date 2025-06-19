@@ -1,84 +1,166 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Resume - Naveen Balaji K</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .c {
+            display: flex;
+            flex-direction: row;
+            background-color: #fff;
+            border: 2px solid #444;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+            margin-bottom: 25px;
+            width: 850px;
+        }
+
+        .c img {
+            width: 300px;
+            height: 450px;
+            object-fit: cover;
+        }
+
+        .info {
+            padding: 20px;
+            width: 100%;
+        }
+
+        .info h3 {
+            margin-top: 0;
+            font-size: 22px;
+            color: #222;
+        }
+
+        .info .genre {
+            font-weight: bold;
+            color: #c0392b;
+            margin-bottom: 10px;
+        }
+
+        .info p {
+            font-size: 15px;
+            color: #444;
+            margin: 6px 0;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #000;
+        }
+
+        .floating-box {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 250px;
+            background-color: #222;
+            color: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            font-family: Arial, sans-serif;
+            z-index: 1000;
+        }
+
+        .floating-box h4 {
+            margin: 0 0 8px;
+            font-size: 16px;
+            color: #f39c12;
+        }
+    </style>
 </head>
 <body>
 
-  <h1>Naveen Balaji K</h1>
-  <p><strong>Email:</strong> naveen@example.com<br>
-     <strong>Phone:</strong> +91-9876543210<br>
-     <strong>LinkedIn:</strong> linkedin.com/in/naveenbalaji</p>
+    <div class="c">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJTils_rx5UbYSWWQ-F5T-czuPg2IA0jXaBg&s" alt="Friday the 13th"/>
+        <div class="info">
+            <h3>Friday the 13th (2020)</h3>
+            <p class="genre">Genre: Slasher, Horror</p>
+            <p><span class="label">Director:</span> Sean S. berlin</p>
+            <p><span class="label">Release Year:</span> 2020</p>
+            <p><span class="label">IMDb Rating:</span> 6.4/10</p>
+            <p><span class="label">Plot:</span> hijacking the bank from an amazing plan because of the tragedic emotion.</p>
+            <p><span class="label">Notable:</span> Birth of horror icon Jason Voorhees, classic slasher formula.</p>
+        </div>
+    </div>
 
-  <hr>
+    <div class="c">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFtsyvhM5m2uZs4p6NGPlfpD_w0tUm5xTtNw&s" alt="The vampire diaries"/>
+        <div class="info">
+            <h3>The vampire diaries (2006)</h3>
+            <p class="genre">Genre: romantic</p>
+            <p><span class="label">Director:</span> salvatore</p>
+            <p><span class="label">Release Year:</span> 2006</p>
+            <p><span class="label">IMDb Rating:</span> 7.4/10</p>
+            <p><span class="label">Plot:</span> A group of friends stumble upon a cannibalistic family in Texas. Their weekend becomes a horrifying survival fight.</p>
+            <p><span class="label">Notable:</span> Introduced Leatherface, disturbing realism, grainy visual style.</p>
+        </div>
+    </div>
 
-  <h2>About Me</h2>
-  <p><em>Enthusiastic Electronics and Instrumentation student</em> with strong skills in embedded systems and web development. Passionate about solving real-world problems using technology.</p>
+    <div class="c">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbN5NVeW4FEmDV8kwEBzGwDCdPArZf1mWZtA&s" alt="Peaky blinders"/>
+        <div class="info">
+            <h3>peaky blinders (2012)</h3>
+            <p class="genre">Genre: Gore, Slasher</p>
+            <p><span class="label">Director:</span> shelby</p>
+            <p><span class="label">Release Year:</span> 2012</p>
+            <p><span class="label">IMDb Rating:</span> 5.6/10</p>
+            <p><span class="label">Plot:</span> a gangsters with thief company and emotions</p>
+            <p><span class="label">Notable:</span> Modern cult favorite, extremely graphic violence, silent killer.</p>
+        </div>
+    </div>
 
-  <hr>
+    <div class="c">
+        <img src="https://www.horror.land/wp-content/uploads/2016/12/The_Offering_Poster.jpg" alt="The Offering"/>
+        <div class="info">
+            <h3>The Offering (2016)</h3>
+            <p class="genre">Genre: Supernatural Horror</p>
+            <p><span class="label">Director:</span> Kelvin Tong</p>
+            <p><span class="label">Release Year:</span> 2016</p>
+            <p><span class="label">IMDb Rating:</span> 3.8/10</p>
+            <p><span class="label">Plot:</span> When a journalist investigates a death in Singapore, she uncovers a terrifying curse tied to ancient rituals and supernatural forces.</p>
+            <p><span class="label">Notable:</span> Asian horror influences, demonic possessions, and chilling mythological themes.</p>
+        </div>
+    </div>
 
-  <h2>Education</h2>
-  <table border="1" cellpadding="5">
-    <tr>
-      <th>Institution</th>
-      <th>Degree</th>
-      <th>Year</th>
-    </tr>
-    <tr>
-      <td>Kongu Engineering College</td>
-      <td>B.E. EIE</td>
-      <td>2021 – 2025</td>
-    </tr>
-  </table>
+    <div class="c">
+        <img src="https://media.senscritique.com/media/000005201689/0/saw.jpg" alt="Saw 2004"/>
+        <div class="info">
+            <h3>Saw (2004)</h3>
+            <p class="genre">Genre: Psychological Horror, Mystery</p>
+            <p><span class="label">Director:</span> James Wan</p>
+            <p><span class="label">Release Year:</span> 2004</p>
+            <p><span class="label">IMDb Rating:</span> 7.6/10</p>
+            <p><span class="label">Plot:</span> Two men must play a sadistic game of survival while being watched by a twisted serial killer named Jigsaw.</p>
+            <p><span class="label">Notable:</span> Plot twists, minimalistic set, created a long-running horror franchise.</p>
+        </div>
+    </div>
 
-  <hr>
+    <div class="c">
+        <img src="https://posterspy.com/wp-content/uploads/2023/09/Saw-X-Poster-9-min.jpg" alt="Saw X"/>
+        <div class="info">
+            <h3>Saw X (2023)</h3>
+            <p class="genre">Genre: Horror, Revenge</p>
+            <p><span class="label">Director:</span> Kevin Greutert</p>
+            <p><span class="label">Release Year:</span> 2023</p>
+            <p><span class="label">IMDb Rating:</span> 6.5/10</p>
+            <p><span class="label">Plot:</span> A sick and betrayed John Kramer targets a fake cancer treatment center with his most personal traps yet.</p>
+            <p><span class="label">Notable:</span> Blends personal emotion with horror, fan-favorite return of Jigsaw, creative new traps.</p>
+        </div>
+    </div>
 
-  <h2>Certifications</h2>
-  <ul>
-    <li>NPTEL – Biomedical Signal Processing (<strong>Gold Elite</strong>)</li>
-  </ul>
-
-  <h2>Projects</h2>
-  <ul>
-    <li><strong>Accident Prevention and Detection System</strong> – Full Stack Project</li>
-    <li><strong>Gas Leak Alert System</strong> – Using MQ2 Sensor</li>
-  </ul>
-
-  <h2>Paper Presented</h2>
-  <ul>
-    <li>"Accident Prevention and Detection" – <em>State-Level Symposium</em></li>
-  </ul>
-
-  <h2>Clubs & Roles</h2>
-  <ul>
-    <li>Executive Member – Photography Club</li>
-  </ul>
-
-  <h2>Skills</h2>
-  <ul>
-    <li>Python</li>
-    <li>HTML/CSS</li>
-    <li>JavaScript</li>
-    <li>Embedded Systems</li>
-    <li>Communication</li>
-    <li>Teamwork</li>
-  </ul>
-
-  <hr>
-
-  <h2>Contact Me</h2>
-  <form>
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name"><br><br>
-
-    <label for="email">Email:</label><br>
-    <input type="email" id="email" name="email"><br><br>
-
-    <label for="message">Message:</label><br>
-    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
-
-    <input type="submit" value="Send Message">
-  </form>
+    <!-- Floating Tip Box -->
+    <div class="floating-box">
+        <h4>👻 MOVIES TIP</h4>
+        <p>TOP LIST TO WATCH<br>LIGHTS OFF - GET SOME ENJOY!</p>
+    </div>
 
 </body>
 </html>
